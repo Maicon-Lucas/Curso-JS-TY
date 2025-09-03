@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root{
+    --primary-color:rgb(60, 206, 231);
+}
+.container{
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: auto;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: var(--primary-color);
+}
+.h1{
+    font-family: 'Outfit','Sans-serif';
+}

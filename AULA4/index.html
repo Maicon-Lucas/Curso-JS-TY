@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form class="form" action="" method="get">
+        <p>idade: <input type="text" class ="idade"></p>
+        <button>Enviar</button>
+    </form>
+    <div class="resultado">
+
+    </div>
+    
+    <script>
+        function qualquer(){
+            const resultado = document.querySelector(".resultado");
+            const form = document.querySelector(".form");
+
+            function recebeForm(evento){
+                evento.preventDefault();
+                const idade = form.
+                querySelector(".idade");
+                console.log(idade.value)
+                if (idade.value >= 18) {
+                    resultado.innerHTML += `<p> Sua idade é ${idade.value}, ou seja, é de maior;`
+                } else {
+                    resultado.innerHTML += `<p> Sua idade é ${idade.value}, ou seja, é de menor;`
+                }
+            };
+        form.addEventListener('submit', recebeForm);
+        };
+        
+        qualquer();
+        
+    </script>
+</body>
+</html>

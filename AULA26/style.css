@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(190, 10, 190);
+    display: flex;
+    justify-content: center;
+}
+.div{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+p{
+    font-size: 30px
+}
+.pausado{
+    color: red;
+}
